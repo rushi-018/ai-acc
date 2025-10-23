@@ -1,0 +1,57 @@
+# AI-Accelerate Requirements - ZERO COST HACKATHON VERSION
+# All dependencies use FREE tiers
+
+# Core Streamlit Framework
+streamlit>=1.28.0
+python-dotenv>=1.0.0
+
+# Google Cloud FREE integration
+google-generativeai>=0.3.0
+
+# Elasticsearch FREE 14-day trial
+elasticsearch>=8.8.0
+
+# Data processing (Python 3.13 compatible)
+numpy>=1.26.0
+pandas>=2.0.0
+
+# HTTP and utilities
+requests>=2.31.0
+jsonschema>=4.17.0
+
+# Audio processing (for voice features) - optional
+SpeechRecognition>=3.10.0
+pydub>=0.25.0
+
+# Date/time utilities
+python-dateutil>=2.8.0
+pytz>=2023.3
+
+# Optional UI enhancements
+plotly>=5.15.0
+streamlit-chat>=0.1.1
+
+# Text Processing & NLP
+nltk==3.8.1
+spacy==3.7.2
+# sentence-transformers==2.2.2  # For semantic search
+
+# Web & API
+requests==2.31.0
+python-dotenv==1.0.0
+
+# Audio Processing (for future web voice features)
+# soundfile==0.12.1
+# webrtcvad==2.0.10
+
+# Utility Libraries
+python-dateutil==2.8.2
+pytz==2023.3
+
+# Development & Testing
+pytest==7.4.3
+black==23.11.0
+flake8==6.1.0
+
+# Note: Some dependencies are commented out for initial development
+# Uncomment and install when integrating with actual Google Cloud and Elastic services

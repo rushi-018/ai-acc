@@ -1,0 +1,25 @@
+# AI-Accelerate Requirements - Streamlined for Deployment
+# Minimal dependencies for core functionality
+
+# Core Streamlit Framework
+streamlit>=1.28.0
+streamlit-chat>=0.1.1
+
+# Essential Python Libraries
+requests>=2.28.0
+python-dotenv>=0.19.0
+
+# Text Processing (lightweight)
+nltk>=3.8
+
+# Development & Testing
+pytest>=7.0.0
+
+# Optional: Uncomment for production deployment
+# google-cloud-aiplatform>=1.35.0
+# elasticsearch>=8.0.0
+# numpy>=1.21.0
+# pandas>=1.5.0
+
+# Note: Some advanced dependencies are commented to avoid conflicts
+# Uncomment as needed for specific cloud integrations

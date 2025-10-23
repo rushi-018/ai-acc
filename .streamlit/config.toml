@@ -1,0 +1,26 @@
+# AI-Accelerate Deployment Configuration
+
+# Streamlit configuration
+[server]
+port = 8501
+address = "0.0.0.0"
+maxUploadSize = 50
+
+# Theme configuration
+[theme]
+primaryColor = "#2c3e50"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f0f2f6"
+textColor = "#262730"
+
+# UI configuration
+[ui]
+hideTopBar = false
+hideSidebarNav = false
+showPadding = true
+
+# Browser configuration  
+[browser]
+serverAddress = "0.0.0.0"
+serverPort = 8501
+gatherUsageStats = false
